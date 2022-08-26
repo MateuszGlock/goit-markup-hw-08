@@ -1,0 +1,68 @@
+.occupation {
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.container-box {
+  display: flex;
+
+  justify-content: center;
+}
+.occupation__text {
+  margin: 0px;
+  margin-bottom: 50px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  text-align: center;
+
+  letter-spacing: 0.03em;
+}
+.occupation__list {
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  gap: 30px;
+  margin: 0px;
+  margin-right: 0px;
+  margin-bottom: 94px;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.occupation-photo-1 {
+  width: 370px;
+  left: 215px;
+  top: 1061px;
+}
+.occupation-photo-2 {
+  width: 370px;
+  left: 615px;
+  top: 1061px;
+}
+.occupation-photo-3 {
+  width: 370px;
+  left: 1015px;
+  top: 1061px;
+}
+.occupation__list--image-box {
+  margin: 0;
+  position: relative;
+}
+.occupation__list--signature-box {
+  position: absolute;
+  display: flex;
+  width: 370px;
+  height: 70px;
+  top: 224px;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-background);
+  background: rgba(47, 48, 58, 0.8);
+}
