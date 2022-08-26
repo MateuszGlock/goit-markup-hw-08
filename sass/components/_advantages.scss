@@ -1,0 +1,52 @@
+.advantages {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.adv-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  gap: 30px;
+  padding: 0px;
+}
+.adv-list__advantage--tittle {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: left;
+  vertical-align: top;
+  margin: 0px;
+  letter-spacing: 0.03em;
+}
+.adv-list__advantage {
+  margin-top: 30px;
+}
+.advantage-tittle-box {
+  width: 270px;
+}
+.adv-list__advantage--text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: Left;
+  vertical-align: Top;
+  letter-spacing: 0.03em;
+  margin-right: 1px;
+  margin-top: 10px;
+  width: 270px;
+
+  color: var(--header-contact-color);
+}
+
+.second-text {
+  left: 515px;
+}
+.third-text {
+  left: 815px;
+}
+.fourth-text {
+  left: 1115px;
+}
