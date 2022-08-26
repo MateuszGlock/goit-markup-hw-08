@@ -346,8 +346,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.team-section__list__member--job,
-.team-section__list__member--name {
+.team-section__member--job,
+.team-sectio__member--name {
   font-size: 16px;
   line-height: 1;
   font-style: normal;
@@ -361,7 +361,7 @@ body {
   padding: 0;
   margin: 0;
 }
-.team-section__list__member {
+.team-section__member {
   width: 270px;
   padding-bottom: 30px;
   background: var(--primary-text-color);
@@ -373,16 +373,16 @@ body {
 .newsletter__form--input {
   background-color: var(--footer-background);
 }
-.team-section__list__member--data {
+.team-section__member--data {
   margin-top: 30px;
   display: block;
   text-align: center;
 }
-.team-section__list__member--name {
+.team-section__member--name {
   width: 72px;
   text-align: center;
 }
-.team-section__list__member--job {
+.team-section__member--job {
   font-weight: 400;
   margin-top: 10px;
   color: var(--header-contact-color);
