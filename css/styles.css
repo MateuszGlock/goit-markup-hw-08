@@ -407,7 +407,7 @@ body {
   padding: 0px;
   margin: 0px;
 }
-.team-section__list__member {
+.team-section__member {
   width: 270px;
   padding-bottom: 30px;
 
@@ -417,12 +417,12 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-section__list__member--data {
+.team-section__member--data {
   margin-top: 30px;
   display: block;
   text-align: center;
 }
-.team-section__list__member--name {
+.team-section__member--name {
   width: 72px;
   font-style: normal;
   font-size: 16px;
@@ -431,7 +431,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-section__list__member--job {
+.team-section__member--job {
   font-weight: 400;
 
   font-style: normal;
@@ -473,15 +473,12 @@ body {
   display: flex;
   border-radius: 50%;
 }
-
 .social-link a:hover {
   background: #2196f3;
 }
-
 .social-link a:hover svg {
   fill: white;
 }
-
 .social-link a svg {
   fill: var(--header-background);
 }
