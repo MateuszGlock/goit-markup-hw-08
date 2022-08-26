@@ -1,0 +1,31 @@
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 500;
+  color: var(--text-color);
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.link {
+  text-decoration: none;
+  transition-property: color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
+}
+.link:hover {
+  color: var(--link-color);
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.icon:hover > a {
+  color: #2196f3;
+  fill: #2196f3;
+}
