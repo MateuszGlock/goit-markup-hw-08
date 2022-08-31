@@ -1534,3 +1534,26 @@ body {
     width: 270px;
   }
 }
+/*clients*/
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .clients-section__list--client {
+    width: 210px;
+  }
+  .clients-section__list {
+    display: block;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients-section__list--client {
+    width: 226px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients-section__text {
+    font-size: 36px;
+    line-height: 1.17;
+    padding-bottom: 50px;
+  }
+}
