@@ -1403,64 +1403,65 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-}
+  }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .adv-list > li {
-    width: 354px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .adv-list > li {
+      width: 354px;
+    }
+    .adv-list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .adv-list__advantage--text {
+      width: 354px;
+    }
+    .advantages {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
   }
-  .adv-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-  }
-  .adv-list__advantage--text {
-    width: 354px;
-  }
-  .advantages {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
 
-@media screen and (min-width: 1200px) {
-  .widgets__background {
-    width: 270px;
+  @media screen and (min-width: 1200px) {
+    .widgets__background {
+      width: 270px;
+    }
+    .adv-list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .advantages {
+      padding-bottom: 0px;
+    }
+    .adv-list__advantage--text {
+      width: 270px;
+    }
   }
-  .adv-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .container {
+      min-width: 320px;
+      max-width: 480px;
+    }
   }
-  .advantages {
-    padding-bottom: 0px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .container {
+      max-width: 768px;
+    }
   }
-  .adv-list__advantage--text {
-    width: 270px;
+  @media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+    }
   }
-}
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .container {
-    min-width: 320px;
-    max-width: 480px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .container {
-    max-width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .occupation {
-    display: none;
+  @media screen and (max-width: 768px) {
+    .occupation {
+      display: none;
+    }
   }
 }
