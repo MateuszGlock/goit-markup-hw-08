@@ -1280,76 +1280,6 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  header {
-    height: 60px;
-    margin-bottom: 60px;
-  }
-  .contact-list {
-    display: none;
-  }
-  .menu__list {
-    display: none;
-  }
-  .heading {
-    display: flex;
-    justify-content: space-between;
-  }
-  .menu__logo {
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-}
-.mobile-button {
-  width: 40px;
-  height: 40px;
-  background: get-bg-color(basic-background);
-  fill: get-color(dark-text);
-}
-.mobile-button:hover,
-.mobile-button:focus {
-  fill: get-color(action);
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  header {
-    margin-bottom: 60px;
-  }
-  .mobile-button {
-    display: none;
-  }
-  .heading {
-    justify-content: space-between;
-  }
-  .menu__logo {
-    padding-right: 83px;
-  }
-}
-.menu__list {
-  gap: 60px;
-}
-.contact-list {
-  display: inline-block;
-  margin-left: 101px;
-}
-.contact-list__text-icon {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  font-size: 12px;
-}
-.header-mail {
-  padding-top: 21px;
-  padding-right: 0px;
-  padding-left: 0px;
-  padding-bottom: 10px;
-}
-
-@media screen and (min-width: 1200px) {
-  .mobile-button {
-    display: none;
-  }
-}
 .js-menu-container {
   width: 100vw;
   height: 100vh;
@@ -1366,10 +1296,144 @@ body {
   top: 0;
   right: 0;
 }
-.js-close-menu {
-  background: #fff;
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .heading {
+    justify-content: space-between;
+  }
 }
-.menu__socials {
-  display: flex;
-  flex-direction: row;
+
+@media screen and (max-width: 320px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .heading {
+    height: 60px;
+    margin-bottom: 60px;
+  }
+  .contact-list {
+    display: none;
+  }
+  .contact-list {
+    display: none;
+  }
+  .heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu__logo {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .mobile-button {
+    width: 40px;
+    height: 40px;
+    background: get-bg-color(basic-background);
+    fill: get-color(dark-text);
+  }
+  .mobile-button:hover,
+  .mobile-button:focus {
+    fill: get-color(action);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  header {
+    margin-bottom: 60px;
+  }
+  .mobile-button {
+    display: none;
+  }
+  .heading {
+    justify-content: space-between;
+  }
+  .menu__logo {
+    padding-right: 83px;
+  }
+
+  .menu {
+    gap: 60px;
+  }
+  .contact-list {
+    display: inline-block;
+    margin-left: 101px;
+  }
+  .contact-list__text-icon {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 12px;
+  }
+  .header-mail {
+    padding-top: 21px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mobile-button {
+    display: none;
+  }
+}
+
+/*advantages*/
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .adv-list > li {
+    margin-top: 30px;
+    width: 450px;
+  }
+  .adv-list__advantage--tittle {
+    width: 450px;
+    text-align: center;
+    justify-content: center;
+  }
+  .adv-list__advantage--text {
+    width: 450px;
+  }
+  .advantages {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .adv-list > li {
+    width: 354px;
+  }
+  .adv-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .adv-list__advantage--text {
+    width: 354px;
+  }
+  .advantages {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .widgets__background {
+    width: 270px;
+  }
+  .adv-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .advantages {
+    padding-bottom: 0px;
+  }
+  .adv-list__advantage--text {
+    width: 270px;
+  }
 }
